@@ -243,8 +243,9 @@ img {
     width: 264px;
     height: 112px;
     margin-bottom: 8px;
- 
-    
+
+    background: #F4F4FD;
+    border-radius: 4px;
 }
 
 .devices {
@@ -292,7 +293,7 @@ img {
 }
 .social-list-link:hover,
 .social-list-link:focus {
-    background-color: #404BBF;
+    background-color: var(--accent-color);
 }
 .social-list-icon {
     fill: #F4F4FD;
@@ -323,11 +324,11 @@ img {
 }
 .customers-list-link:hover,
 .customers-list-link:focus {
-    border: 1px solid #404BBF;
+    border-color: var(--accent-color);
 }
 .customers-list-link:hover .customers-list-icon,
 .customers-list-link:focus .customers-list-icon {
-    fill: #404BBF;
+    fill: var(--accent-color);
 }
 /* ===============================PORTFOLIO===============================*/
 .main-portfolio-section {
@@ -352,6 +353,8 @@ img {
     display: flex;
     align-items: center;
     text-align: center;
+    font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     padding: 12px 24px;
     background-color: #F4F4FD;
@@ -382,6 +385,18 @@ img {
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
     border-top: 0;
+}
+.card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.desc-card-title {
+    font-weight: 400;
+    color: var(--primary-text-color);
+
 }
 /* ===============================PORTFOLIO===============================*/
 
